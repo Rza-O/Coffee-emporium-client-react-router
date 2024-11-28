@@ -8,7 +8,8 @@ export default {
     extend: {
       backgroundImage: {
         'navBar': "url('/src/assets/images/more/15.jpg')",
-        'banner': "url('/src/assets/images/more/3.png')"
+        'banner': "url('/src/assets/images/more/3.png')",
+        'addCoffee': "url('/src/assets/images/more/11.png')"
       },
       fontFamily: {
         railway: "Raleway",
