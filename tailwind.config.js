@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'navBar': "url('/src/assets/images/more/15.jpg')",
+        'banner': "url('/src/assets/images/more/3.png')"
+      },
+      fontFamily: {
+        railway: "Raleway",
+        rancho: "Rancho"
+      }
+    },
   },
   plugins: [
     require('daisyui')
